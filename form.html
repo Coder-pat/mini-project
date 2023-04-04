@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Questions form</title>
+</head>
+<body>
+    <form action="action_page.php" method="post" onsubmit="return validateForm()">
+        <label for="ccode">Course code:</label><br>
+        <input type="text" name="code" id="code"><br><br>
+
+        <label for="file">Past questions file:</label><br>
+        <input type="file" name="pfile" id="pfile" multiple=""><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
